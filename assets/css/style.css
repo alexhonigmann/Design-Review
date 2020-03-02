@@ -33,6 +33,7 @@
 .nav li{
     display: inline;
     margin-left: 4%;
+    
 }
 .nav a{
     text-decoration: none;
@@ -79,10 +80,10 @@
     height: 40vh;
     margin-top: 10vh;
     display: grid;
-    grid-template-columns: 1fr 1fr;
+    grid-template-columns: 65% 30%;
 }
 .devil-first-text h5{
-    margin: 5vh 5%;
+    margin: 5vh 10%;
     font-size: 1.3em;
 }
 .devil-box div:nth-child(2){
