@@ -1,6 +1,7 @@
 *{
     padding: 0;
     margin: 0;
+    font-family:Theinhardt;
 }
 @font-face{
     font-family: Graphik;
@@ -27,6 +28,7 @@
 }
 .nav {
     margin-top: 5vh;
+    font-family:Theinhardt;
 }
 .nav li{
     display: inline;
@@ -42,6 +44,7 @@
 }
 .logo h1{
     font-size: 2em;
+    font-family: TiemposHead;
 }
 .get-started{
     margin-top: 5vh;
@@ -53,7 +56,7 @@
     border: 2px solid black;
     padding: 3px 33px;
     border-radius: 2px;
-    animation: .5 linear;
+    font-family: Theinhardt;
 }
 .get-started a:hover{
     background-color: black;
@@ -101,6 +104,7 @@
 }
 .devil-text-block h1{
     font-size: 4em;
+    font-family: TiemposHea
 }
 .devil-text-block h4{
     font-size: 2.2em;
@@ -128,11 +132,13 @@
     font-size: 3em;
     margin-top: 4vh;
     margin-left: 10%;
+    font-family: TiemposHead;
 }
 .works-text h2{
     font-size: 3em;
     margin-top: 4vh;
     margin-left: 10%;
+    font-family: TiemposHead;
 }
 .works-text ol{
     margin-left: 15%;
@@ -158,6 +164,7 @@
 .critique-text-one h1{
     font-size: 3em;
     margin: 10vh 0 7vh;
+    font-family: TiemposHead;
 }
 .critique-text-one h5{
     font-family: Theinhardt;
@@ -204,6 +211,7 @@
 }
 .footer-text h1{
     font-size: 3em;
+    font-family: TiemposHead;
 }
 .footer-img{
     display: grid;
@@ -224,3 +232,4 @@
     color: black;
     font-weight: bold;
 }
+    
