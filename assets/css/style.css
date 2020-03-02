@@ -1,0 +1,226 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+@font-face{
+    font-family: Graphik;
+    src: url(../fonts/font/Graphik-Medium.ttf);
+    src: url(../fonts/font/Graphik-Regular.woff);
+}
+@font-face{
+    font-family: Theinhardt;
+    src: url(../fonts/font/Theinhardt-Lt.woff);
+}
+@font-face{
+    font-family: TiemposHead;
+    src: url(../fonts/font/TiemposHeadline-Semibold.woff)
+}
+
+/* header ********************/
+#home{
+    height: 20vh;
+}
+.header{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    justify-content: space-between;
+}
+.nav {
+    margin-top: 5vh;
+}
+.nav li{
+    display: inline;
+    margin-left: 4%;
+}
+.nav a{
+    text-decoration: none;
+    color: black;
+}
+.logo{
+    margin-top: 3vh;
+    justify-self: center;
+}
+.logo h1{
+    font-size: 2em;
+}
+.get-started{
+    margin-top: 5vh;
+    justify-self: center;
+}
+.get-started a{
+    text-decoration: none;
+    color: black;
+    border: 2px solid black;
+    padding: 3px 33px;
+    border-radius: 2px;
+    animation: .5 linear;
+}
+.get-started a:hover{
+    background-color: black;
+    color: white;
+}
+
+.first-site{
+    display: flex;
+    flex-direction: column;
+}
+.first-site-text{
+    align-self: center;
+}
+.first-site-img img{
+    width: 100%;
+}
+/* diliv ******************************/
+
+.devil-box{
+    height: 40vh;
+    margin-top: 10vh;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+.devil-first-text h5{
+    margin: 5vh 5%;
+    font-size: 1.3em;
+}
+.devil-box div:nth-child(2){
+    width: 50%;
+}
+.devil-box div:nth-child(2) h1{
+    margin: 5vh 0 1vh;
+    font-size: 3em;
+}
+.devil-second-text{
+    width: 100%;
+    display: grid;
+    grid-template-columns: 35% 49%;
+    gap: 5%;
+}
+.devil-second-text img{
+    width: 100%;
+    margin-left: 7vh;
+}
+.devil-text-block h1{
+    font-size: 4em;
+}
+.devil-text-block h4{
+    font-size: 2.2em;
+    font-family: Theinhardt;
+    margin: 3vh 0;
+}
+.devil-text-block p{
+    font-family: Theinhardt;
+    font-size: 1.5em;
+    color: rgb(132, 134, 137);
+}
+/* works ************/
+
+.works-box{
+    margin: 10vh 5% 0;
+    display: grid;
+    
+    grid-template-columns: 45% 45%;
+    background-color: rgb(241, 241, 241);
+}
+.works-img img{
+    width: 100%;
+}
+.works-text h1{
+    font-size: 3em;
+    margin-top: 4vh;
+    margin-left: 10%;
+}
+.works-text h2{
+    font-size: 3em;
+    margin-top: 4vh;
+    margin-left: 10%;
+}
+.works-text ol{
+    margin-left: 15%;
+    margin-top: 3vh;
+    font-family: Theinhardt;
+    font-size: 1.5em;
+    color: rgb(132, 134, 137);
+}
+.works-text p{
+    margin-top: 3vh;
+    font-family: Theinhardt;
+    font-size: 1.5em;
+    color: rgb(132, 134, 137);
+    margin-left: 10%;
+}
+/* critique ****************************/
+
+.critique-text-one{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.critique-text-one h1{
+    font-size: 3em;
+    margin: 10vh 0 7vh;
+}
+.critique-text-one h5{
+    font-family: Theinhardt;
+    font-size: 1.5em;
+    color: rgb(132, 134, 137);
+    text-align: center;
+    line-height: 2;
+}
+.critique-box-two{
+    width: 70%;
+    margin: 15vh 15% 0 10%;
+}
+.critique-box-two img{
+    width: 100%;
+}
+.critiq{
+    display: grid;
+    grid-template-columns: 40% 50%;
+    margin-left: 20%;
+}
+.critique-text-two{
+    font-size: 1.5em;
+    color: rgb(132, 134, 137);
+    line-height: 2;
+    font-family: Theinhardt;
+}
+.critique-img{
+    margin-top: -10vh;
+}
+
+/* footer ******************************/
+
+.linie{
+    background-color: rgb(159, 162, 167);
+    width: 90%;
+    margin: 10vh 5%;
+    height: 2px;
+}
+
+.footer-text{ 
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.footer-text h1{
+    font-size: 3em;
+}
+.footer-img{
+    display: grid;
+    grid-template-columns: 40% 60%;
+    align-items: flex-end;
+    margin: 5vh;
+    font-family: Theinhardt;
+}
+.footer-img img{
+    width: 60%;
+    justify-self: end;
+}
+.footer-img p {
+    color: rgb(132, 134, 137);
+}
+.footer-img a{
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+}
